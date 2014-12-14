@@ -1,6 +1,19 @@
 www.oezel-bau-gmbh.de
 =====================
 
+# Page Infos
+* Damit die Page später unter der Wunschdomain zu sehen ist
+muss der A-Record der Domain auf Github Pages gelenkt werden
+(mehr Infos auf der Infoseite der Github Pages).
+Zusätzlich muss die Domain in die Datei "CNAME" eingetragen werden.
+Und Zack läuft die Page unter der Domain. Alternative wäre
+einfach den Inhalt des "_site" Ordners auf den Ziel Server
+hochzuladen ;).
+
+* Hinweis!!!!: Aktuell ist in der Datei "_config.yml" eine Base URL eingetragen,
+diese sollte natürlich später entfernt werden ;-).
+
+
 # Infos
 
 * Jekyll - http://jekyllrb.com/
