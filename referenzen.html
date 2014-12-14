@@ -1,0 +1,35 @@
+---
+layout: default
+title: Referenzen
+permalink: /referenzen/
+nav: true
+weight: 30
+---
+
+<p class="text-center">
+  Schauen Sie sich unsere Vorher-Nachher-Galerie an und überzeugen 
+  Sie sich von unserer Kompetenz.
+</p>
+
+<div class="row ref-images">
+  <div class="col-md-4 text-center">
+    <a href="{{ "/assets/images/refs/oezel_1.jpg" | prepend: site.baseurl }}" class="group1">
+      <img class="img-responsive img-thumbnail" 
+           src="{{ "/assets/images/refs/oezel_1.jpg" | prepend: site.baseurl }}"/>
+    </a>
+  </div>  
+  <div class="col-md-4 text-center">
+    <a href="{{ "/assets/images/refs/oezel_2.jpg" | prepend: site.baseurl }}" class="group1">
+      <img class="img-responsive img-thumbnail" 
+           src="{{ "/assets/images/refs/oezel_2.jpg" | prepend: site.baseurl }}"/>
+    </a>
+  </div>  
+</div>
+
+<script type="text/javascript">
+  // COLOR BOX ACTIVATION
+  $(function() {
+    // WHEN DOCUMENT LOADED AND JQUERY BECOMES ACTIVE
+    $(".group1").colorbox({rel:'group1', width:"80%", height:"80%"});
+  });
+</script>
